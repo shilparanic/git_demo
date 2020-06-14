@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Suite">
+  <test name="Home_Test">
+   <groups>
+  <run>
+  	<include name="Regression"/>
+  </run></groups>
+    <classes>
+      <class name="Demo_TestNG.Demo_TestNG.TC_Home_Group"/>
+       </classes>
+  </test>
+  <test name="Login_Test">
+  <groups>
+  <run>
+  	<include name="Sanity"/>
+  </run></groups>
+    <classes>
+     <class name="Demo_TestNG.Demo_TestNG.TC_Login_Group"/>
+    </classes>
+  </test>
+  
+</suite> <!-- Suite -->
